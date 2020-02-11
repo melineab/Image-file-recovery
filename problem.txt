@@ -1,0 +1,14 @@
+Image file recovery
+
+
+Restore provided damaged image file in 'JPG' format:
+* 
+jpeg file is damaged by reversing first forth, after that each third chunk of 1024 bytes,
+* 
+implemented script MUST provide two functions (recover, recover_as), 
+  one of which will recover damaged image into another file specified by user (recover_as), 
+  another one will recover the damaged file itself (recover),
+* 
+the two methods must be implemented using different file manipulation approaches,
+* 
+OPTIONAL: try to implement the application using OOP approaches.
